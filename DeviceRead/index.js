@@ -1,7 +1,7 @@
 const azure = require('azure-storage');
 
 const tableService = azure.createTableService();
-const tableName = "DEVICEALERT";
+const tableName = "DEVICETELEMETRY";
 const MAX_ROWS = 20;
 
 /**
